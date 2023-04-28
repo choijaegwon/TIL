@@ -5,23 +5,23 @@
 ## 사용법  
 ---
 ### Apple 
-P8 인증서 받기(https://developer.apple.com/account/)
-![image](https://user-images.githubusercontent.com/68246962/232309127-26efe7c4-9cf7-4eb6-a093-d1c684005260.png)
-Apple Push Notifications service(APNs) 체크
-![image](https://user-images.githubusercontent.com/68246962/232309232-f7cb1a6d-ecd2-41fc-8846-508381f4e326.png)
-![image](https://user-images.githubusercontent.com/68246962/232309430-ed7b0f88-3c3d-45b9-a87a-a253a1c79d97.png)
+P8 인증서 받기(https://developer.apple.com/account/)  
+![image](https://user-images.githubusercontent.com/68246962/232309127-26efe7c4-9cf7-4eb6-a093-d1c684005260.png)  
+Apple Push Notifications service(APNs) 체크  
+![image](https://user-images.githubusercontent.com/68246962/232309232-f7cb1a6d-ecd2-41fc-8846-508381f4e326.png)  
+![image](https://user-images.githubusercontent.com/68246962/232309430-ed7b0f88-3c3d-45b9-a87a-a253a1c79d97.png)  
 다운로드 후 인증서 로컬에 저장하기  
 키 ID복사 해두기
 
 ### 파이어베이스 
-![image](https://user-images.githubusercontent.com/68246962/232309640-1545e1da-70c1-443e-9bab-9adf47894368.png)
-![image](https://user-images.githubusercontent.com/68246962/232309708-42816123-6c60-4c7f-a6af-f10d1e256ce8.png)
-앱 구성에서 Bundle Identifier 추가하기   
+![image](https://user-images.githubusercontent.com/68246962/232309640-1545e1da-70c1-443e-9bab-9adf47894368.png)  
+![image](https://user-images.githubusercontent.com/68246962/232309708-42816123-6c60-4c7f-a6af-f10d1e256ce8.png)  
+앱 구성에서 Bundle Identifier 추가하기    
 GoogleServices-Info.plist 다운받고  
 다운 받은 파일은 바로 프로젝트에 넣어주기  
 
-Cloud Messaging으로 이동 APNs 인증서 업로드
-![image](https://user-images.githubusercontent.com/68246962/232309841-d8313682-8b26-4303-999e-4316ea7659ca.png)
+Cloud Messaging으로 이동 APNs 인증서 업로드  
+![image](https://user-images.githubusercontent.com/68246962/232309841-d8313682-8b26-4303-999e-4316ea7659ca.png)  
 
 - P8 파일 다운로드
 - P8 파일의 KeyID입력(파일명의 숫자)
@@ -37,10 +37,10 @@ Info.plist
 FirebaseAppDelegateProxyEnabled
 ~~~
 추가 값은 0 
-![image](https://user-images.githubusercontent.com/68246962/232310070-7a5f26e5-2107-4b64-b9f0-36507d8040c6.png)
-Xcode 프로젝트 설정누르고 Signing & Capabilities.로 이동
-![image](https://user-images.githubusercontent.com/68246962/232310535-c1494ddc-e491-4627-8d53-ee146c84b177.png)
-에서 Push Notifications추가
+![image](https://user-images.githubusercontent.com/68246962/232310070-7a5f26e5-2107-4b64-b9f0-36507d8040c6.png)  
+Xcode 프로젝트 설정누르고 Signing & Capabilities.로 이동  
+![image](https://user-images.githubusercontent.com/68246962/232310535-c1494ddc-e491-4627-8d53-ee146c84b177.png)  
+에서 Push Notifications추가  
 
 
 ## 예시코드
