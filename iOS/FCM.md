@@ -3,7 +3,7 @@
 - 파이어베이스를 이용한 푸시 알림
 
 ## 사용법  
----
+
 ### Apple 
 P8 인증서 받기(https://developer.apple.com/account/)  
 ![image](https://user-images.githubusercontent.com/68246962/232309127-26efe7c4-9cf7-4eb6-a093-d1c684005260.png)  
@@ -44,7 +44,7 @@ Xcode 프로젝트 설정누르고 Signing & Capabilities.로 이동
 
 
 ## 예시코드
----
+
 AppDelegate.swift
 ~~~
 import Firebase
