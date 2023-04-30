@@ -3,13 +3,13 @@
 - Apple에서 만든 알람 서비스 플랫폼
 
 ## 생겨난 이유
----
+
 애플이   
 Server -> App 으로 바로 통신 못하고  
 Server -> APNs -> App 으로 통신하도록 만들어서 생긴 것이다.
 
 ## 동작 원리
---- 
+
 ### 필수 사전 동작
 1. App이 APNs에게 Device Token 요청
 2. APNs가 App에게 Device Token 을 알려준다.
