@@ -4,7 +4,7 @@
 - API에 접속하기 위해서는 access token을 API 서버에 제출해서 인증할 때 사용하는 방법  
 
 ## 예시코드
----
+
 헤더의 Authorization 필드에 담아져 보내진다.  
 
 ~~~
