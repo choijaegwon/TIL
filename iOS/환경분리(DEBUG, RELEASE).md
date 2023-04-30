@@ -8,7 +8,7 @@
 ## 하는방법
 
 ## 1. 각각의 FB설정 파일 넣어주기
---- 
+
 
 - PROJECT_ID, BUNDLE_ID 확인후 변경
 - Target 맞춰서 설정  
@@ -16,14 +16,14 @@
 <img width="258" alt="image" src="https://user-images.githubusercontent.com/68246962/235298785-0deab00f-0d6b-4183-8580-9ad648542a7f.png">  
 
 ## 2. 프로젝트의 Info 확인
----
+
 
 <img width="849" alt="image" src="https://user-images.githubusercontent.com/68246962/235298834-e9cceb30-d01a-4a6b-87d0-64a6f58c6c57.png">   
 
 - TARGETS 복사해주기. 
 
 ## 3. Bundle Identifier 확인  
----
+
 
 - 만약 앱 각각의 앱(ex: Test, TestQa, TestDev)을 설치하고 싶다면, Bundle Identifier에 이름을 수정해주면 된다.   
 
@@ -56,7 +56,7 @@
 <img width="783" alt="image" src="https://user-images.githubusercontent.com/68246962/235299344-5951bc10-1eda-4655-852c-bdc110cc5e08.png">  
 
 ## 5. 서버에서 데이터 어떻게 내려주는지 API 확인하기
----
+
 
 ### 예시 코드
 ~~~
@@ -85,7 +85,7 @@
 ~~~
 
 ## 6. 서버에서 API 받아서 분리
---- 
+
 - 전처리기문 사용  
 ~~~
 func lookup() async throws {
