@@ -53,6 +53,22 @@ flutter doctor
 ## Xcode 설치
 1. 홈페이지 가서 최신 버전 다운
 2. 드래그로 설치
+3. 설정해주기
+~~~
+sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
+sudo xcodebuild -runFirstLaunch
+~~~
+
+4. CocoaPad 설치  
+~~~
+sudo gem install cocoapods
+~~~
+
+5. 설치 확인  
+
+~~~
+pod --version
+~~~
 
 ## AndroidStudio 설치
 1. 파일설치
