@@ -3,11 +3,11 @@
 ## AOS
 android → local.properties 
 ~~~
-원하는 변수명 = "apiKeyString값"
+원하는 변수명 = apiKeyString값
 
 ex)
 
-flutter.kakao.nativeKey = "kakao어쩌구저쩌구apikey"
+flutter.kakao.nativeKey = kakao어쩌구저쩌구apikey
 ~~~
 
 android → app → build.gradle  
