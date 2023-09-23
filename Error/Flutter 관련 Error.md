@@ -22,7 +22,7 @@ xecution failed for task ':app:mapDebugSourceSetPaths'.
    > Failed to calculate the value of task ':app:mapDebugSourceSetPaths' property 'extraGeneratedResDir'.
       > Querying the mapped value of provider(java.util.Set) before task ':app:processDebugGoogleServices' has completed is not supported
 ~~~
-
+  
 ## 해결 방법
 - project → android → build.gradle
 
@@ -69,17 +69,3 @@ buildscript {
     }
 }
 ~~~
-
-# PlatformException (PlatformException(sign_in_failed, com.google.android.gms.common.api.ApiException: 12500: , null))  
-
-## Error Code
-
-~~~
-PlatformException (PlatformException(sign_in_failed, com.google.android.gms.common.api.ApiException: 12500: , null))
-~~~
-
-## 해결 방법
-Firebase에 접속 후 **지원 이메일** 추가 하기
-
-# Reference
-https://stackoverflow.com/questions/56188338/platformexception-platformexceptionsign-in-failed-com-google-android-gms-comm  
