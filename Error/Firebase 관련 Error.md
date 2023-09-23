@@ -23,3 +23,15 @@ source ~/.zshrc
 ~~~
 
 적용
+
+# Firebase projects:list 입력시 Error
+
+## Error Code
+~~~
+Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+~~~
+
+## 해결 방법
+~~~
+firebase login --reauth
+~~~
