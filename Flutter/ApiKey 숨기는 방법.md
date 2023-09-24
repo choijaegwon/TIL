@@ -96,3 +96,7 @@ ex)
 		</dict>
     </array>
 ~~~
+
+# Reference
+다른방법  
+https://codewithandrea.com/articles/flutter-api-keys-dart-define-env-files/  
