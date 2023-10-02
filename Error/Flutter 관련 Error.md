@@ -83,3 +83,28 @@ Firebase에 접속 후 **지원 이메일** 추가 하기
 
 # Reference
 https://stackoverflow.com/questions/56188338/platformexception-platformexceptionsign-in-failed-com-google-android-gms-comm
+
+# [!] Unable to find a target named `RunnerTests` in project `Runner.xcodeproj`, did find `Runner`.
+Runner.xcodeproj에서 RunnerTests라는 타겟을 찾지 못했다는 내용  
+## Error Code
+~~~
+[!] Unable to find a target named `RunnerTests` in project `Runner.xcodeproj`, did find `Runner`.
+~~~
+
+## 해결 방법
+~~~
+target 'Runner' do
+  use_frameworks!
+  use_modular_headers!
+
+  flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
+  # target 'RunnerTests' do
+  #   inherit! :search_paths
+  # end
+end
+~~~
+ios/Podfile로 가서 아래와 같은 부분을 찾아서 RunnerTests 관련 항목을 주석 처리
+
+# Reference
+https://blog.dglee.co.kr/34  
+
