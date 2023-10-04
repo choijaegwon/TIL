@@ -24,4 +24,6 @@ showDialog(
     },
 );
 ~~~
-barrierDismissible: false, 속성을 주면 뒤에 터치를 막을 수 있다.
+barrierDismissible: false, 속성을 주면 뒤에 터치를 막을 수 있다.    
+Navigator.pop(context, false)에서 context뒤에 argument는 줘도 되고 안줘도 된다.  
+위에 예제는 Dismissible위젯의 confirmDismiss함수의 콜백으로 사용해서 argument를 줬다.  
