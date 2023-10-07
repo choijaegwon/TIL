@@ -39,3 +39,25 @@ debounce.run(() {
   context.read<TodoSearchCubit>().setSearchTerm(newSearchTerm);
 });
 ~~~
+
+## 예시 코드2
+RxDart를 사용하면
+Bloc.dart 에서
+~~~
+ EventTransformer<SetSearchTermEvent> debounce<SetSearchTermEvent>(
+      Duration duration) {
+    return (events, mapper) => events.debounceTime(duration).flatMap(mapper);
+  }
+~~~
+를 정의한후
+
+on<T> 이벤트 에 agrement로 추가해 줄 수있다.
+~~~
+on<SetSearchTermEvent>(
+      (event, emit) {
+        emit(state.copyWith(searchTerm: event.newSearchTerm));
+      },
+      transformer: debounce(Duration(milliseconds: 2000)),
+    );
+~~~
+이러면 따로 예시 코드1 에서 처럼 작성 안해도 된다.
