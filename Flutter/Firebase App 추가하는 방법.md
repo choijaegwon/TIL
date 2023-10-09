@@ -1,5 +1,14 @@
 # Firebase App 추가하는 방법
 
+## Project Cmd
+### pub 설치
+~~~
+flutter pub add firebase_core
+~~~
+
+### 프로젝트 생성후 Flutter 클릭
+https://console.firebase.google.com/u/0/?hl=ko
+
 ## Cmd
 ### curl 설치
 ~~~
@@ -28,4 +37,8 @@ ex)
 flutterfire configure --project=todo-abcd
 ~~~
 
+## 최신상태인지 확인
+~~~
+flutterfire configure
+~~~
 
