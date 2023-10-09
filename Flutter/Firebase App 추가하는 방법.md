@@ -11,8 +11,9 @@ curl -sL https://firebase.tools | bash
 firebase login
 ~~~
 
-### 목록가져오기
-~~
+### 목록가져오기  
+
+~~~
 firebase projects:list
 ~~~
 
