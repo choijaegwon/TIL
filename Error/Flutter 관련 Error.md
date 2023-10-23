@@ -1,3 +1,13 @@
+# Running pod install...무한로딩
+
+
+## Error Code
+~~~
+Running pod install...
+~~~
+
+## 해결방법
+
 # Incorrect use of ParentDataWidget.
 ![image](https://github.com/choijaegwon/choijaegwon.github.io/assets/68246962/43398c44-8dc7-4939-92ce-5ed33dd8f55c)  
 
