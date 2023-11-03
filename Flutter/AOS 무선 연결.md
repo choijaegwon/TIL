@@ -32,3 +32,4 @@ cd /Users/${user이름}/Library/Android/sdk/platform-tools
 
 # Reference
 https://miaow-miaow.tistory.com/160  
+https://devsoboro.tistory.com/69  
