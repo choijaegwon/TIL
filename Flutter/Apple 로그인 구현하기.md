@@ -214,3 +214,5 @@ Sign in with Apple 추가
 # Reference
 https://pub.dev/packages/sign_in_with_apple   
 https://dalgoodori.tistory.com/49   
+https://medium.com/blocship/integrate-apple-sign-in-on-android-using-flutter-bf5d61c85332  
+
